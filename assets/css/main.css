@@ -84,6 +84,7 @@ input, select, textarea {
 
 	body {
 		background-color: #183026;
+
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -1747,7 +1748,7 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 		border: 0;
-		background: #35b88f;
+		background: purple;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		cursor: pointer;
@@ -1841,10 +1842,38 @@ input, select, textarea {
 		}
 
 		.box.style1 {
-			background: #fff;
-			padding: 3em;
+            color: yellow;
+            background: #8B0000;
+			padding: 2em;
+        
+            
 		}
-
+		.box.style1 p {
+            color: white;
+            background: #8B0000;
+            font-size:16px;
+        
+            
+		}
+mark.red{
+    color:#ff0000;
+}
+mark.blue{
+    color:#0000FF;
+}
+mark.purple{
+    color:#4A148C;
+}
+mark.yellow{
+    
+    color:#FFFF33;
+    
+}
+mark.black{
+    
+    color:black;
+    
+}
 			.box.style1 .image {
 				display: block;
 				position: absolute;
@@ -1852,7 +1881,7 @@ input, select, textarea {
 				width: 50%;
 				height: 100%;
 				background: #152E33;
-				overflow: hidden;
+				
 			}
 
 				.box.style1 .image img {
@@ -1880,7 +1909,7 @@ input, select, textarea {
 			}
 
 			.box.style1.left .image {
-				right: 0;
+				right:0;
 			}
 
 				.box.style1.left .image img {
@@ -1890,6 +1919,7 @@ input, select, textarea {
 			.box.style1.left .inner {
 				margin-right: 50%;
 				padding-right: 3em;
+  
 			}
 
 		.box.style2 {
@@ -1898,18 +1928,31 @@ input, select, textarea {
 
 			.box.style2 header {
 				display: inline-block;
+                height: 3300px;;
+                width: 1100px;
 				background: #fff;
 				padding: 2em 3em 2em 3em;
 				margin: 0;
+                line-height: 40px;
+                background: #8B0000;
+                color: yellow;
+                font-size: 28px;
+   
+
+
 			}
 
 				.box.style2 header p {
+                    color:white;
 					padding: 0;
+                    background: #8B0000;
+                    
 				}
 
 			.box.style2 .inner {
 				position: relative;
 				padding: 40px 0 0px 0;
+                
 			}
 
 				.box.style2 .inner:after {
@@ -1943,13 +1986,22 @@ input, select, textarea {
 				}
 
 		.box.style3 {
-			background: #fff;
+			background:#8B0000;
 			padding: 3em;
+            color:yellow;
 		}
 
 			.box.style3 header {
+                font-size: 36px;
 				text-align: center;
-			}
+			}			
+                .box.style3 header p {
+                    color:white;
+					padding: 0;
+                    background: #8B0000;
+                    font-size: 22px;
+                    
+				                    }
 
 /* Icons */
 
@@ -1999,37 +2051,49 @@ input, select, textarea {
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
 		margin: 0;
-		padding: 14em 0 14em 0;
+		padding: 10em 0 7em 0;
 		cursor: default;
+        background: url("images/maxresdefault.jpg") no-repeat;
+        background-size: 95%;
+        background-position: center
+        
+
 	}
 
 		#header header {
 			display: inline-block;
-			padding: 0 0 4.5em 0;
+			padding: 0 0 15em ;
+
 		}
 
 			#header header h1 {
 				font-weight: 600;
-				font-size: 2em;
-				letter-spacing: 10px;
+				font-size: 7em;
+                color: red;
+                text-shadow: -1px 0 black, 0 10px black, 0px 0 black, 0 -1px black;
+				letter-spacing: 19px;
+
 			}
 
 			#header header p {
 				border-top: solid 1px rgba(255, 255, 255, 0.5);
-				color: rgba(255, 255, 255, 0.75);
+				color: yellow;
+                background-color: black;
 				text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.1875);
-				font-size: 1em;
-				text-transform: uppercase;
+				font-size: 1.5em;
+                font-family: fantasy;
+				text-transform: ;
 				letter-spacing: 3px;
 				padding: 0;
 				margin-top: 0.35em;
+                
 			}
 
 				#header header p:before {
 					content: '';
 					display: block;
 					border-top: solid 1px rgba(255, 255, 255, 0.5);
-					margin: 4px 0 0.8em 0;
+
 				}
 
 		#header footer {
@@ -2089,8 +2153,8 @@ input, select, textarea {
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #35b88f url("images/banner.svg") bottom center no-repeat;
-		padding: 5em 0 5em 0;
+		background: #8B0000 url("images/banner.svg") bottom center no-repeat;
+		padding: 2em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
 	}
@@ -2401,7 +2465,7 @@ input, select, textarea {
 
 				.box.style2 .inner {
 					position: relative;
-					padding: 30px 0 0 0;
+					padding: 50px 0 0 0;
 				}
 
 				.box.style3 {
